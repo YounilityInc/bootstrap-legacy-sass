@@ -1,0 +1,12 @@
+//= require ./bootstrap-legacy/transition
+//= require ./bootstrap-legacy/alert
+//= require ./bootstrap-legacy/button
+//= require ./bootstrap-legacy/carousel
+//= require ./bootstrap-legacy/collapse
+//= require ./bootstrap-legacy/dropdown
+//= require ./bootstrap-legacy/modal
+//= require ./bootstrap-legacy/tab
+//= require ./bootstrap-legacy/affix
+//= require ./bootstrap-legacy/scrollspy
+//= require ./bootstrap-legacy/tooltip
+//= require ./bootstrap-legacy/popover

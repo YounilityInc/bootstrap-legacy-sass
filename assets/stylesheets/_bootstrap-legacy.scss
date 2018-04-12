@@ -1,0 +1,56 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "bootstrap-legacy/variables";
+@import "bootstrap-legacy/mixins";
+
+// Reset and dependencies
+@import "bootstrap-legacy/normalize";
+@import "bootstrap-legacy/print";
+@import "bootstrap-legacy/glyphicons";
+
+// Core CSS
+@import "bootstrap-legacy/scaffolding";
+@import "bootstrap-legacy/type";
+@import "bootstrap-legacy/code";
+@import "bootstrap-legacy/grid";
+@import "bootstrap-legacy/tables";
+@import "bootstrap-legacy/forms";
+@import "bootstrap-legacy/buttons";
+
+// Components
+@import "bootstrap-legacy/component-animations";
+@import "bootstrap-legacy/dropdowns";
+@import "bootstrap-legacy/button-groups";
+@import "bootstrap-legacy/input-groups";
+@import "bootstrap-legacy/navs";
+@import "bootstrap-legacy/navbar";
+@import "bootstrap-legacy/breadcrumbs";
+@import "bootstrap-legacy/pagination";
+@import "bootstrap-legacy/pager";
+@import "bootstrap-legacy/labels";
+@import "bootstrap-legacy/badges";
+@import "bootstrap-legacy/jumbotron";
+@import "bootstrap-legacy/thumbnails";
+@import "bootstrap-legacy/alerts";
+@import "bootstrap-legacy/progress-bars";
+@import "bootstrap-legacy/media";
+@import "bootstrap-legacy/list-group";
+@import "bootstrap-legacy/panels";
+@import "bootstrap-legacy/responsive-embed";
+@import "bootstrap-legacy/wells";
+@import "bootstrap-legacy/close";
+
+// Components w/ JavaScript
+@import "bootstrap-legacy/modals";
+@import "bootstrap-legacy/tooltip";
+@import "bootstrap-legacy/popovers";
+@import "bootstrap-legacy/carousel";
+
+// Utility classes
+@import "bootstrap-legacy/utilities";
+@import "bootstrap-legacy/responsive-utilities";

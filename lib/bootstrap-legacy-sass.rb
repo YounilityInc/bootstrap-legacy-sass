@@ -1,5 +1,5 @@
-require 'bootstrap-sass/version'
-module Bootstrap
+require 'bootstrap-legacy-sass/version'
+module BootstrapLegacy
   class << self
     # Inspired by Kaminari
     def load!
@@ -67,8 +67,8 @@ module Bootstrap
 
     def register_compass_extension
       ::Compass::Frameworks.register(
-          'bootstrap',
-          :version               => Bootstrap::VERSION,
+          'bootstrap-legacy',
+          :version               => BootstrapLegacy::VERSION,
           :path                  => gem_path,
           :stylesheets_directory => stylesheets_path,
           :templates_directory   => File.join(gem_path, 'templates')
@@ -76,7 +76,7 @@ module Bootstrap
     end
 
     def register_rails_engine
-      require 'bootstrap-sass/engine'
+      require 'bootstrap-legacy-sass/engine'
     end
 
     def register_lotus
@@ -91,4 +91,4 @@ module Bootstrap
   end
 end
 
-Bootstrap.load!
+BootstrapLegacy.load!
