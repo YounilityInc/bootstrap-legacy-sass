@@ -80,7 +80,7 @@ $headings-color:          inherit !default;
 
 // [converter] If $bootstrap-sass-asset-helper if used, provide path relative to the assets load path.
 // [converter] This is because some asset helpers, such as Sprockets, do not work with file-relative paths.
-$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap-legacy/", "../fonts/bootstrap-legacy/") !default;
+$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap-legacy/", "../assets/bootstrap-legacy/") !default;
 
 //** File name for all font files.
 $icon-font-name:          "glyphicons-halflings-regular" !default;
