@@ -3,6 +3,7 @@ $:.unshift(lib_path) unless $:.include?(lib_path)
 
 load './tasks/bower.rake'
 
+require 'bundler/gem_tasks'
 require 'rake/testtask'
 Rake::TestTask.new do |t|
   t.libs << 'test'
